@@ -24,25 +24,25 @@ const About = () => {
     });
   });
   return (
-    <div id="about" className="min-h-screen w-screen">
+    <div id="locations" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5 ">
-        <h2 className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+        <h2 className="font-general text-sm uppercase md:text-[14px]">
+          Welcome to Middle-earth
         </h2>
-          <AnimatedTitle
-              title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
-              containerClass="mt-5 !text-black text-center"
-          />
+        <AnimatedTitle
+          title="The gre<b>a</b>test f<b>a</b><b>n</b>tasy <br /> <b>a</b>dventur<b>e</b> <b>e</b>ver t<b>o</b>ld"
+          containerClass="mt-5 !text-black text-center"
+        />
 
         <div className="about-subtext">
-          <p>The Game of Games begins-your life, nor an epic MMORPG</p>
-          <p> Zentry unites every player from countless games and platforms</p>
+          <p>One Ring to rule them all, One Ring to find them</p>
+          <p>One Ring to bring them all and in the darkness bind them</p>
         </div>
       </div>
       <div className="h-dvh w-screen " id="clip">
         <div className="mask-clip-path about-image">
           <img
-            src="img/about.webp"
+            src="img/lotr.jpg"
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />
